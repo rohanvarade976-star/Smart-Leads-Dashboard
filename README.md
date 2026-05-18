@@ -383,12 +383,4 @@ docs: update API documentation
 
 ---
 
-## Submission
 
-**Email:** ritik.yadav@servicehive.tech  
-**Subject:** `MERN Internship Assignment Submission - Your Name`
-
-Include:
-- GitHub Repository URL
-- Updated Resume
-- Deployment Link (if available)
