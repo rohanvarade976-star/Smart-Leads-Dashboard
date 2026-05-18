@@ -4,6 +4,23 @@ A full-stack Lead Management Dashboard built with the MERN stack and TypeScript.
 
 ---
 
+## 🚀 Live Deployment & Demo
+
+The application is fully deployed and running in production.
+
+*   **Live Dashboard (Frontend):** [https://smart-leads-dashboard-topaz-nine.vercel.app](https://smart-leads-dashboard-topaz-nine.vercel.app)
+*   **Live API Server (Backend):** [https://smart-leads-dashboard-vqh2.onrender.com](https://smart-leads-dashboard-vqh2.onrender.com)
+
+### 🔑 Pre-Seeded Accounts (For Evaluators)
+You can log in directly on the live website using these pre-configured user credentials:
+
+| Role  | Email | Password | Permissions |
+| :--- | :--- | :--- | :--- |
+| **Administrator** | `admin@leads.com` | `adminpassword123` | Full access (can delete leads, edit, create) |
+| **Sales Rep** | `sales@leads.com` | `salespassword123` | Read/write access (cannot delete leads) |
+
+---
+
 ## Tech Stack
 
 | Layer     | Technology                              |
@@ -339,6 +356,7 @@ npm run dev       # Dev server with hot reload
 npm run build     # Compile TypeScript
 npm run start     # Run compiled output
 npm run lint      # TypeScript type check
+npm run seed      # Seed default user accounts in database
 ```
 
 ### Frontend
